@@ -20,26 +20,26 @@
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link {% block top_active %}{% endblock %}" href=""><span style="font-weight: bold;">Топ продавцов</span>
+    <a class="nav-link {% block top_active %}{% endblock %}" href="{% url 'top-sellers' %}"><span style="font-weight: bold;">Топ продавцов</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link {% block post_active %}{% endblock %}" href="">
+    <a class="nav-link {% block post_active %}{% endblock %}" href="{% url 'advertisement-post' %}">
       <span style="font-weight: bold;">Разместить объявление</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link {% block reg_active %}{% endblock %}" href="">
+    <a class="nav-link {% block reg_active %}{% endblock %}" href="{% url 'register' %}">
       <span style="font-weight: bold;">Регистрация</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link {% block login_active %}{% endblock %}" href="">
+    <a class="nav-link {% block login_active %}{% endblock %}" href="{% url 'login' %}">
       <span style="font-weight: bold;">Войти</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link {% block profile_active %}{% endblock %}" href="">
+    <a class="nav-link {% block profile_active %}{% endblock %}" href="{% url 'profile' %}">
       <span style="font-weight: bold;">Профиль</span>
     </a>
   </li>
